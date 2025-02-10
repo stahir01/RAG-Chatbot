@@ -1,14 +1,14 @@
 import os
-from langchain_community.chat_models.huggingface import HuggingFaceEndpoint
-from langchain.vectorstores import Chroma
+from langchain_community.llms import HuggingFaceEndpoint 
+from langchain.vectorstores  import Chroma
 from dotenv import load_dotenv
 
 load_dotenv()
 
 HUGGING_FACE_Key = os.getenv('HUGGINGFACE_Key')
 DEEPSEEK_MODEL = 'deepseek-ai/DeepSeek-R1-Distill-Llama-70B'
-LLAMA_MODEL_70B = 'meta-llama/Llama-2-70b-chat-hf'
-MISTRAL_MODEL = 'mistralai/Mistral-Large-Instruct-2407'
+#LLAMA_MODEL_70B = 'meta-llama/Llama-2-70b-chat-hf'
+#MISTRAL_MODEL = 'mistralai/Mistral-Large-Instruct-2407'
 
 
 
