@@ -2,7 +2,6 @@ import os
 import json
 from typing import Optional, List
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_community.document_loaders import  JSONLoader
 
 
 def load_pdf(pdf_path: str) -> List:
@@ -26,23 +25,29 @@ def load_pdf(pdf_path: str) -> List:
 
 def load_json(json_path: str) -> List:
     """
-    Loads and extracts document data from a Json file.
+    Loads and extracts document data from a JSON file without using jq.
 
     Args:
-        pdf_path (str): The file path to the Json document.
+        json_path (str): The file path to the JSON document.
 
     Returns:
-        List: A list of documents extracted from the Json.
+        List: A list of extracted documents.
     """
-
-    loader = JSONLoader(file_path=json_path)
-    json_doc = loader.load()
+    with open(json_path, "r", encoding="utf-8") as f:
+        json_data = json.load(f)
 
     extracted_documents = []
 
-    for pages in json_doc:
-        extracted_documents.append({"text": pages.page_content, "page": pages.metadata["page"]})
+    # Extract key sections
+    if "abstract" in json_data:
+        extracted_documents.append({"text": json_data["abstract"], "page": "JSON"})
+
+    if "key_contributions" in json_data:
+        for contribution in json_data["key_contributions"]:
+            extracted_documents.append({"text": contribution["description"], "page": "JSON"})
+
+    if "impact" in json_data:
+        for impact in json_data["impact"]:
+            extracted_documents.append({"text": impact, "page": "JSON"})
 
     return extracted_documents
-
-

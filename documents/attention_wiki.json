@@ -1,0 +1,54 @@
+{
+    "title": "Attention Is All You Need",
+    "publication_year": 2017,
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan Gomez",
+      "Lukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "abstract": "The paper introduces the Transformer model, a novel neural network architecture based solely on attention mechanisms, eschewing recurrence entirely. This approach allows for more parallelization and has led to significant advancements in tasks such as machine translation.",
+    "key_contributions": [
+      {
+        "title": "Transformer Architecture",
+        "description": "A deep learning model that relies entirely on self-attention mechanisms, enabling efficient parallelization and improved performance in sequence-to-sequence tasks."
+      },
+      {
+        "title": "Scaled Dot-Product Attention",
+        "description": "An attention mechanism that computes the attention weights using the dot product of queries and keys, scaled by the square root of the key dimension."
+      },
+      {
+        "title": "Multi-Head Attention",
+        "description": "An extension of the attention mechanism that allows the model to focus on different positions of the input sequence simultaneously, capturing various aspects of the data."
+      },
+      {
+        "title": "Positional Encoding",
+        "description": "A technique to inject information about the position of tokens in the sequence, since the model lacks inherent recurrence or convolution."
+      }
+    ],
+    "impact": [
+      "The Transformer model has become the foundation for many state-of-the-art models in natural language processing, including BERT, GPT, and others.",
+      "It has enabled significant improvements in machine translation, text generation, and various other NLP tasks.",
+      "The architecture's parallelizability has allowed for training larger models more efficiently."
+    ],
+    "references": [
+      {
+        "title": "Attention Is All You Need",
+        "url": "https://arxiv.org/abs/1706.03762"
+      },
+      {
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "url": "https://arxiv.org/abs/1409.0473"
+      }
+    ],
+    "external_links": [
+      {
+        "title": "Transformer: A Novel Neural Network Architecture for Language Understanding",
+        "url": "https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html"
+      }
+    ]
+  }
