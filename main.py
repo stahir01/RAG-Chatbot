@@ -9,8 +9,8 @@ HUGGING_FACE_Key = os.getenv('HUGGINGFACE_Key')
 app = FastAPI()
 
 # Global variables
-db = None  # Vector database instance
-llm = None  # Language model instance
+db = None
+llm = None
 
 @app.on_event("startup")
 def initialize_system():
@@ -30,7 +30,6 @@ def initialize_system():
         chunk_overlap=20
     )
     
-    # Initialize vector database
     db = create_vector_db(chunked_docs)
     logging.info("Vector store initialized with documents!")
 
