@@ -8,8 +8,7 @@ from langchain.vectorstores import Chroma
 from langchain.schema import Document
 from .data_loader import *
 
-#Variables
-EMBED_DELAY = 0.2  # 20 miliseconds
+
 #MISTRAL_MODEL = 'Linq-AI-Research/Linq-Embed-Mistral' #Too big to download
 MINI_LM = 'sentence-transformers/all-MiniLM-L6-v2'
 
@@ -70,7 +69,6 @@ def create_vector_db(
         logging.warning("No documents provided to create a vector database.")
         return None
 
-    # Use provided embeddings or a default model
     if embeddings is None:
         embeddings = HuggingFaceEmbeddings(model_name=MINI_LM)
     
