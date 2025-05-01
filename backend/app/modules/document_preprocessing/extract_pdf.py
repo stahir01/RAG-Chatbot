@@ -1,4 +1,5 @@
 import os
+import json
 from pathlib import Path
 from langchain_community.document_loaders import PyPDFLoader
 from backend.app.config import PROJECT_ROOT
@@ -29,11 +30,7 @@ class PDFExtraction:
 
 
 if __name__ == "__main__":
-    print(f"Root Directory: {PROJECT_ROOT}")
-    """
-    script_dir = Path(__file__).parent.parent.parent
-    print(f"Script directory: {script_dir}")
-    pdf_path = os.path.join(script_dir, "documents", "Guideline_atraumatische_Femurkopfnekrose_2019-09_1-abgelaufen.pdf")
+    pdf_path = os.path.join(PROJECT_ROOT, "documents", "Guideline_atraumatische_Femurkopfnekrose_2019-09_1-abgelaufen.pdf")
 
     try:
         if not os.path.exists(pdf_path):
@@ -41,7 +38,8 @@ if __name__ == "__main__":
         
         pdf_extractor = PDFExtraction()
         text = pdf_extractor.extract_text_from_pdf(pdf_path)
-        print(text)
+        with open("extracted_text.json", "w") as f:
+            json.dump(text, f, indent=4)
+        print("Text extracted successfully.")
     except FileNotFoundError as e:
         print(e)
-    """

@@ -28,3 +28,8 @@ def split_text(pdf_docs: List[str], chunk_size: int = 100, chunk_overlap: int = 
             chunks.append(Document(page_content=chunk))
     
     return chunks
+
+
+
+if __name__ == "__main__":
+    

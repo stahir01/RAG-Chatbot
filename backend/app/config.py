@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 config = ConfigParser()
+load_dotenv()
 
 # Hugging Face API Key
 HUGGINGFACE_KEY = os.getenv("HUGGINGFACE_KEY")
@@ -23,7 +24,6 @@ MINI_LM_EMBED = 'sentence-transformers/all-MiniLM-L6-v2'
 OPENAI_EMBED = 'text-embedding-3-large'
 
 #Documents Path
-DOCUMENT_PATH  = os.getenv("DOCUMENT_PATH", "backend/app/documents")
 PROJECT_ROOT = Path(__file__).parent
 
 
