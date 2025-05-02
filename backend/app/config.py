@@ -4,7 +4,9 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 config = ConfigParser()
-load_dotenv()
+
+_env_path = Path(__file__).parent / ".env"
+load_dotenv(dotenv_path=_env_path)
 
 # Hugging Face API Key
 HUGGINGFACE_KEY = os.getenv("HUGGINGFACE_KEY")
