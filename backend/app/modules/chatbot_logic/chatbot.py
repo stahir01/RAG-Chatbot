@@ -6,6 +6,7 @@ from langchain.chains import (
     create_retrieval_chain,
 )
 from langchain_core.retrievers import BaseRetriever
+from pydantic import Field
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains.combine_documents import create_stuff_documents_chain
@@ -14,7 +15,6 @@ from langchain_core.documents import Document
 from backend.app.modules.document_retrieval import retrieve_text
 from backend.app.config import (
     OPENAI_KEY,
-    LANGSMITH_KEY,
     HUGGINGFACE_KEY,
     FALCON_MODEL,
     DEEPSEEK_MODEL,
@@ -27,10 +27,8 @@ DEFAULT_MODEL = GPT_4o
 
 class CustomRetriever(BaseRetriever):
     """Wrapper for your existing retrieve_text function"""
-    def __init__(self, vectordb_path: str, collection_name: str = "medical_dataset"):
-        super().__init__()
-        self.vectordb_path = vectordb_path
-        self.collection_name = collection_name
+    vectordb_path: str = Field(..., alias="vectordb_path")
+    collection_name: str = Field(default="medical_dataset")
 
     def _get_relevant_documents(self, query: str, *, run_manager=None) -> List[Document]:
         results = retrieve_text(
@@ -66,7 +64,7 @@ class Chatbot:
 
         # Initialize components
         self.llm = self.initialize_model()
-        self.retriever = CustomRetriever(self.vectordb_path, self.collection_name)
+        self.retriever = CustomRetriever(vectordb_path=self.vectordb_path, collection_name=self.collection_name)
         self.qa_chain = self.create_qa_chain()
         self.chat_history = []
 
@@ -170,8 +168,8 @@ if __name__ == "__main__":
     response = chatbot.generate_text(
         "What diagnostic imaging would you recommend next?"
     )
-    print("Follow-up Response:", response)
+    print("\nFollow-up Response:", response)
 
     # Clear history test
     chatbot.clear_history()
-    print("History cleared. Current history length:", len(chatbot.chat_history))
+    print("\nHistory cleared. Current history length:", len(chatbot.chat_history))

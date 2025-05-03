@@ -11,12 +11,6 @@ load_dotenv(dotenv_path=_env_path)
 # API Key
 HUGGINGFACE_KEY = os.getenv("HUGGINGFACE_KEY")
 OPENAI_KEY = os.getenv("OPENAI_KEY")
-LANGSMITH_KEY = os.getenv("LANGSMITH_KEY")
-
-#LangSmith Details
-LANGSMITH_ENDPOINT = os.getenv("LANGSMITH_ENDPOINT")
-LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT")
-LANGSMITH_TRACING = os.getenv("LANGSMITH_TRACING")
 
 #OpenAI Model
 GPT_4o = 'gpt-4o-mini'
