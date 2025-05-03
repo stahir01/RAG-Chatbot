@@ -5,7 +5,7 @@ from pathlib import Path
 
 config = ConfigParser()
 
-_env_path = Path(__file__).parent / ".env"
+_env_path = Path(__file__).parent.parent.parent / ".env"
 load_dotenv(dotenv_path=_env_path)
 
 # API Key
