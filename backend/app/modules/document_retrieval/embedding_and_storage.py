@@ -13,7 +13,7 @@ from backend.app.config import (
     VECTOR_DB_PATH,
     PROJECT_ROOT
 )
-DEFAULT_EMBED_MODEL = MINI_LM_EMBED 
+DEFAULT_EMBED_MODEL = OPENAI_EMBED 
 
 
 def store_embeddings(
@@ -56,13 +56,12 @@ def store_embeddings(
         embedding_function=embedding_model, 
         persist_directory=dir_path
     )
-    db.aadd_texts(texts=text_chunks, metadatas=metadata) 
+    db.add_texts(texts=text_chunks, metadatas=metadata, embeddings=embedding_model) 
 
     logging.info(f"✅ Stored {len(text_chunks)} text chunks in ChromaDB (Collection: {collection_name})")
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO) 
     pdf_path = os.path.join(PROJECT_ROOT, "documents", "Guideline_atraumatische_Femurkopfnekrose_2019-09_1-abgelaufen.pdf")
     
     pdf_extractor = PDFExtraction()
@@ -73,7 +72,8 @@ if __name__ == '__main__':
         
     cleaner = CleanText(raw_text)
     cleaned_text = cleaner.clean()
-    text_chunks = split_text(cleaned_text, chunk_size=1000, chunk_overlap=200)
+
+    text_chunks = split_text([cleaned_text], chunk_size=1000, chunk_overlap=200)
     print(f"Extracted {len(text_chunks)} text chunks.")
 
     store_embeddings(text_chunks, embed_model=OPENAI_EMBED, collection_name="medical_dataset")

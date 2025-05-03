@@ -24,6 +24,7 @@ def split_text(
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,
+        separators=["\n\n", "\n", ". ", " ", ""],
         length_function=len
     )
 
@@ -51,6 +52,6 @@ if __name__ == '__main__':
     
     text_chunks = split_text([cleaned_text], chunk_size=1000, chunk_overlap=200)
     with open("text_chunks.json", "w") as f:
-        json.dump([doc.page_content for doc in text_chunks], f, indent=4)
+        json.dump([doc.page_content for doc in text_chunks], f, ensure_ascii=False, indent=4)
     print(f"Extracted {len(text_chunks)} text chunks.")
     

@@ -60,10 +60,6 @@ class CleanText:
             self.text = re.sub(pattern, '', self.text, flags=re.MULTILINE | re.IGNORECASE)
         return self
     
-    def normalize_unicode(self) -> 'CleanText':
-        """Convert/handle Unicode characters."""
-        self.text = self.text.encode('utf-8', errors='replace').decode('utf-8')
-        return self
 
     def clean_special_characters(
             self,
@@ -99,8 +95,7 @@ class CleanText:
     def clean(self) -> str:
         """Execute full cleaning pipeline with medical document optimizations."""
         return (
-            self.normalize_unicode()
-            .remove_headers_footers()
+            self.remove_headers_footers()
             .preserve_references()
             .fix_hyphenation()
             .clean_special_characters()
