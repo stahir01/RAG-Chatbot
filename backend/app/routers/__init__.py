@@ -1,1 +1,2 @@
-#Will include all routers
+from .chat import *
+from .schema import *
