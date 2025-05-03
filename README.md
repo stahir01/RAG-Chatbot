@@ -1,5 +1,5 @@
 # Medical Analysis RAG Chatbot
-This document outlines the setup and usage of a Retrieval-Augmented Generation (RAG) chatbot designed to answer medical questions in any language.
+This document outlines the setup and usage of a Retrieval-Augmented Generation (RAG) chatbot. This chatbot is designed to answer medical questions in any language, extracting information from a corpus of German medical documents to provide answers based on user-described problems and diagnoses.
 
 ## Prerequisites
 
@@ -83,9 +83,55 @@ This will typically open the frontend in your browser at `http://localhost:3000.
 * Ask medical questions in any language through the chatbot interface on http://localhost:3000. The chatbot will retrieve relevant information and generate an answer.
 
 ## Project Structure
+```bash
+├── backend/
+│   ├── app/
+│   │   ├── documents/
+│   │   ├── modules/
+│   │   │   ├── chatbot_logic/
+│   │   │   │   └── __init__.py
+│   │   │   ├── document_preprocessing/
+│   │   │   │   └── __init__.py
+│   │   │   ├── document_retrieval/
+│   │   │   │   └── __init__.py
+│   │   │   └── __init__.py
+│   │   ├── router/
+│   │   │   └── __init__.py
+│   │   ├── vector_storage/
+│   │   ├── config.py
+│   │   ├── main.py
+│   │   └── __init__.py
+│   ├── pyenv
+│   └── requirements.txt
+├── frontend/
+│   ├── node_modules/
+│   ├── public/
+│   ├── package.json
+│   ├── README.md
+│   └── src/
+│       ├── App.js
+│       └── Chatbot.js
+├── .env
+├── .gitignore
+└── README.md
+```
 
+The backend is created using FastAPI, and the frontend is built with React. The project is structured to separate concerns, with modules for document retrieval, preprocessing, and chatbot logic.
 
-## Explanation of Key Components
+## Explanation of Key Components (#TODO)
 
 
 ## Testing Using Jupyter Notebook
+A Jupyter Notebook (`Extra/rag_test.ipynb`) is included for comprehensive testing of the chatbot's core functionalities. This notebook demonstrates:
+
+* **Document Retrieval Evaluation:** It contains a series of queries designed to assess the effectiveness of the document retrieval component. For each question, the notebook retrieves the top three most relevant document chunks and evaluates their relevance based on precision and recall scores. The results of this evaluation are stored in `Extra/rag_test_document_retrieval.csv`.
+
+* **Chatbot Logic Evaluation:** The notebook further tests how the chatbot model utilizes the retrieved document chunks to generate precise and contextually accurate answers to user questions. It evaluates the quality of the final responses, demonstrating the RAG process in action and the model's ability to refine answers based on the retrieved information. The evaluation metrics for the chatbot's responses are recorded in `Extra/rag_test_chatbot_logic.csv`.
+
+By examining these notebooks and their corresponding CSV outputs, you can gain insights into the performance of both the document retrieval and the chatbot's response generation capabilities.
+
+
+## Chatbot Example
+<div style="text-align: center;">
+    <img src="chatbot_conversation.png" alt="Chatbot Workflow" width="600">
+</div>
