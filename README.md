@@ -118,9 +118,6 @@ This will typically open the frontend in your browser at `http://localhost:3000.
 
 The backend is created using FastAPI, and the frontend is built with React. The project is structured to separate concerns, with modules for document retrieval, preprocessing, and chatbot logic.
 
-## Explanation of Key Components (#TODO)
-
-
 ## Testing Using Jupyter Notebook
 A Jupyter Notebook (`Extra/rag_test.ipynb`) is included for comprehensive testing of the chatbot's core functionalities. This notebook demonstrates:
 

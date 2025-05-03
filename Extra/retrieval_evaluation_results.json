@@ -1,0 +1,692 @@
+[
+    {
+        "question": "Welche weiterführende Bildgebung ist indiziert bei persistierenden Hüftschmerzen über 6 Wochen trotz unauffälligem Röntgenbefund?",
+        "reference_answer": "Empfehlung: MRT bei persistierenden Beschwerden mit unauffälligem Röntgenbefund.",
+        "retrieved_information": [
+            {
+                "passage": "Bei klinischem V.a. Hüftkopfnekrose (unklare Schmerzen im Bereich der Hüfte  länger als 6 Wochen, eventuell bestehende Risikofaktoren, klinischer Befund mit  Leistenschmerz, ggf. Hinken und Bewegungsschmerz bzw.  Bewegungseinschränkungen, kein Hinweis auf Di fferentialdiagnosen) soll  zunächst eine Röntgenuntersuchung (Beckenübersicht und betroffene Hüfte in  Lauensteinprojektion) durchgeführt werden.  Expertenkonsens (stark) Entscheidung basiert aus-schließlich auf Experten-konsens, 100  Zustimmung  Bei unauffälligem Röntgenbild und anhaltenden Beschwerden soll eine MRT des  Hüftgelenkes veranlasst werden.  Level of Evidence: 2 Empfehlungsgrad: A Quellen: 260, 554, 1130,  1182, 1437, 1509, 1571,  1616, 1681, 1708, 2578,  2580, 2494, 2593, 2597  Expertenkonsens (stark) 100 Zustimmung  Geprüft 2019  Hintergrundtext:  Die Röntgenaufnahme gehört unverändert zur orientierenden Primärdiagnostik. Hier werden  ggf",
+                "chroma_score": 0.6090097427368164,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.05555555555555555,
+                        "recall": 0.7,
+                        "f1": 0.10294117647058822
+                    },
+                    "rouge2": {
+                        "precision": 0.016,
+                        "recall": 0.2222222222222222,
+                        "f1": 0.029850746268656712
+                    },
+                    "rougeL": {
+                        "precision": 0.03968253968253968,
+                        "recall": 0.5,
+                        "f1": 0.07352941176470588
+                    }
+                }
+            },
+            {
+                "passage": "Bei klinischem V.a. Hüftkopfnekrose (unklare Schmerzen im Bereich der Hüfte  länger als 6 Wochen, eventuell bestehende Risikofaktoren, klinischer Befund mit  Leistenschmerz, ggf. Hinken und Bewegungsschmerz bzw.  Bewegungseinschränkungen, kein Hinweis auf Di fferentialdiagnosen) soll  zunächst eine Röntgenuntersuchung (Beckenübersicht und betroffene Hüfte in  Lauensteinprojektion) durchgeführt werden.  Expertenkonsens (stark) Entscheidung basiert aus-schließlich auf Experten-konsens, 100  Zustimmung  Bei unauffälligem Röntgenbild und anhaltenden Beschwerden soll eine MRT des  Hüftgelenkes veranlasst werden.  Level of Evidence: 2 Empfehlungsgrad: A Quellen: 260, 554, 1130,  1182, 1437, 1509, 1571,  1616, 1681, 1708, 2578,  2580, 2494, 2593, 2597  Expertenkonsens (stark) 100 Zustimmung  Geprüft 2019  Hintergrundtext:  Die Röntgenaufnahme gehört unverändert zur orientierenden Primärdiagnostik. Hier werden  ggf",
+                "chroma_score": 0.6090097427368164,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.05555555555555555,
+                        "recall": 0.7,
+                        "f1": 0.10294117647058822
+                    },
+                    "rouge2": {
+                        "precision": 0.016,
+                        "recall": 0.2222222222222222,
+                        "f1": 0.029850746268656712
+                    },
+                    "rougeL": {
+                        "precision": 0.03968253968253968,
+                        "recall": 0.5,
+                        "f1": 0.07352941176470588
+                    }
+                }
+            },
+            {
+                "passage": ". Bei unauffälligem Befund und klinisch  fortbestehenden Beschwerden empfehlen die Autoren die wiederholte Untersuchung nach 3  bis 6 Monaten. Bei positivem Befall eine entsprechende Therapie. Auch bei positivem  radiologischem Befund wird ein MRT empfohlen, um die Integrität der subchondralen Platte  zu differenzieren. Damit können die Ficat-Stadien 2 und 3 unterschieden werden. Bei  positivem Befund im MRT und nicht schmerzhafter Hüfte z. B. auf der kontralateralen Seite  besteht lt. Autoren ein hohes Risiko für eine Femurkopfnekrose der Gegenseite mit Stadium 0  der Erkrankung.  Grimm et al. (2597) un tersuchten 35 Patienten mit 53 osteonekrotischen Hüften im  Methodenvergleich. Sie ermittelten eine Sensitivität von 96,2 und eine Spezifität von 98,1  für die MRT, die sich allen anderen Methoden in ihrer Studie (CT, Szintigraphie und  Röntgenaufnahmen) überlegen erwies.  Kopecky et al",
+                "chroma_score": 0.680620551109314,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.050359712230215826,
+                        "recall": 0.7,
+                        "f1": 0.09395973154362416
+                    },
+                    "rouge2": {
+                        "precision": 0.007246376811594203,
+                        "recall": 0.1111111111111111,
+                        "f1": 0.013605442176870748
+                    },
+                    "rougeL": {
+                        "precision": 0.02877697841726619,
+                        "recall": 0.4,
+                        "f1": 0.05369127516778524
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Wann sollte eine MRT beider Hüftgelenke durchgeführt werden?",
+        "reference_answer": "Empfehlung: MRT beider Hüften bei einseitiger Femurkopfnekrose im ARCO Stadium I-IV.",
+        "retrieved_information": [
+            {
+                "passage": "Wegen des häufigen Befalls der Gegenseite soll eine MRT immer beide Hüftgelenke  erfassen. Dies gilt bei Befall einer Hüfte mit ARCO Stadium I bis IV.  Level of Evidence: 2 Empfehlungsgrad: A Quellen: 516, 696, 1001,  1035, 1182, 1311, 1330,  1437, 1509, 2488, 2491,  Expertenkonsens (stark) 100 Zustimmung  Geprüft 2019 \n\nHintergrundtext:",
+                "chroma_score": 0.6346571445465088,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.12962962962962962,
+                        "recall": 0.5384615384615384,
+                        "f1": 0.208955223880597
+                    },
+                    "rouge2": {
+                        "precision": 0.03773584905660377,
+                        "recall": 0.16666666666666666,
+                        "f1": 0.06153846153846154
+                    },
+                    "rougeL": {
+                        "precision": 0.12962962962962962,
+                        "recall": 0.5384615384615384,
+                        "f1": 0.208955223880597
+                    }
+                }
+            },
+            {
+                "passage": "Wegen des häufigen Befalls der Gegenseite soll eine MRT immer beide Hüftgelenke  erfassen. Dies gilt bei Befall einer Hüfte mit ARCO Stadium I bis IV.  Level of Evidence: 2 Empfehlungsgrad: A Quellen: 516, 696, 1001,  1035, 1182, 1311, 1330,  1437, 1509, 2488, 2491,  Expertenkonsens (stark) 100 Zustimmung  Geprüft 2019 \n\nHintergrundtext:",
+                "chroma_score": 0.6346571445465088,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.12962962962962962,
+                        "recall": 0.5384615384615384,
+                        "f1": 0.208955223880597
+                    },
+                    "rouge2": {
+                        "precision": 0.03773584905660377,
+                        "recall": 0.16666666666666666,
+                        "f1": 0.06153846153846154
+                    },
+                    "rougeL": {
+                        "precision": 0.12962962962962962,
+                        "recall": 0.5384615384615384,
+                        "f1": 0.208955223880597
+                    }
+                }
+            },
+            {
+                "passage": "Bei klinischem V.a. Hüftkopfnekrose (unklare Schmerzen im Bereich der Hüfte  länger als 6 Wochen, eventuell bestehende Risikofaktoren, klinischer Befund mit  Leistenschmerz, ggf. Hinken und Bewegungsschmerz bzw.  Bewegungseinschränkungen, kein Hinweis auf Di fferentialdiagnosen) soll  zunächst eine Röntgenuntersuchung (Beckenübersicht und betroffene Hüfte in  Lauensteinprojektion) durchgeführt werden.  Expertenkonsens (stark) Entscheidung basiert aus-schließlich auf Experten-konsens, 100  Zustimmung  Bei unauffälligem Röntgenbild und anhaltenden Beschwerden soll eine MRT des  Hüftgelenkes veranlasst werden.  Level of Evidence: 2 Empfehlungsgrad: A Quellen: 260, 554, 1130,  1182, 1437, 1509, 1571,  1616, 1681, 1708, 2578,  2580, 2494, 2593, 2597  Expertenkonsens (stark) 100 Zustimmung  Geprüft 2019  Hintergrundtext:  Die Röntgenaufnahme gehört unverändert zur orientierenden Primärdiagnostik. Hier werden  ggf",
+                "chroma_score": 0.7180644869804382,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.031746031746031744,
+                        "recall": 0.3076923076923077,
+                        "f1": 0.05755395683453237
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.015873015873015872,
+                        "recall": 0.15384615384615385,
+                        "f1": 0.028776978417266185
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Welche Klassifikation wird zur Stadieneinteilung der atraumatischen Femurkopfnekrose empfohlen?",
+        "reference_answer": "Empfehlung: Nutzung der modifizierten ARCO-Klassifikation.",
+        "retrieved_information": [
+            {
+                "passage": "2. Welche Klassifikationssysteme werden für die Stadieneinteilung der AFKN  verwendet und welche Parameter sind dabei die wichtigsten.  Zur Klassifikation der atraumatischen Femurkopfnekrose soll te die ARCO-Klassifikation verwendet werden.  Die ARCO-Klassifikation ist die derzeit die im deutschen Sprachraum gebräuchlichste  Einteilung der AFKN. Sie beinhaltet Angaben zu folgenden Parametern:  1.) Das Vorhandensein einer Läsion  2.) Röntgenstrukturveränderungen  3.) Subchondrale Fraktur (crescent sign) und Höhe der Kopfabflachung  4.) Angaben über den betroffenen Femurkopfanteil und das Ausmaß der Beteiligung  der Femurzirkumferenz  5.) Vorhandener oder nicht vorhandener Kollaps und dessen Ausmaß  6.) Beteiligung des Acetabulums  Level of Evidence 2-3 (vgl.  Evidenztabellen) \n\nEmpfehlungsgrad B \n\nEntscheidung basiert  großenteils auf  Expertenkonsens.",
+                "chroma_score": 0.48074254393577576,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.026785714285714284,
+                        "recall": 0.5,
+                        "f1": 0.05084745762711864
+                    },
+                    "rouge2": {
+                        "precision": 0.009009009009009009,
+                        "recall": 0.2,
+                        "f1": 0.017241379310344827
+                    },
+                    "rougeL": {
+                        "precision": 0.026785714285714284,
+                        "recall": 0.5,
+                        "f1": 0.05084745762711864
+                    }
+                }
+            },
+            {
+                "passage": "2. Welche Klassifikationssysteme werden für die Stadieneinteilung der AFKN  verwendet und welche Parameter sind dabei die wichtigsten.  Zur Klassifikation der atraumatischen Femurkopfnekrose soll te die ARCO-Klassifikation verwendet werden.  Die ARCO-Klassifikation ist die derzeit die im deutschen Sprachraum gebräuchlichste  Einteilung der AFKN. Sie beinhaltet Angaben zu folgenden Parametern:  1.) Das Vorhandensein einer Läsion  2.) Röntgenstrukturveränderungen  3.) Subchondrale Fraktur (crescent sign) und Höhe der Kopfabflachung  4.) Angaben über den betroffenen Femurkopfanteil und das Ausmaß der Beteiligung  der Femurzirkumferenz  5.) Vorhandener oder nicht vorhandener Kollaps und dessen Ausmaß  6.) Beteiligung des Acetabulums  Level of Evidence 2-3 (vgl.  Evidenztabellen) \n\nEmpfehlungsgrad B \n\nEntscheidung basiert  großenteils auf  Expertenkonsens.",
+                "chroma_score": 0.48074254393577576,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.026785714285714284,
+                        "recall": 0.5,
+                        "f1": 0.05084745762711864
+                    },
+                    "rouge2": {
+                        "precision": 0.009009009009009009,
+                        "recall": 0.2,
+                        "f1": 0.017241379310344827
+                    },
+                    "rougeL": {
+                        "precision": 0.026785714285714284,
+                        "recall": 0.5,
+                        "f1": 0.05084745762711864
+                    }
+                }
+            },
+            {
+                "passage": ". Sie umfasst 5 Stadien und greift mit dem Stadium 0 die Überlegung  der silent hip auf. Wie oben ausgeführt , stützt sich die ARCO Klassifikation weitestgehend  auf die Vorarbeiten von Ficat, Arlet und der Arbeitsgruppe um Steinberg. Auch japanische  Arbeiten sind in die Klassifikation eingegangen (Ohzono et al. (1349). Es ist festzuhalten, daß  die ARCO Klassifikation nie in einem Journal publiziert wurde , sondern nur in einem 1993  veröffentlichten Newsletter der Gesellschaft dokumentiert ist (2602). Die Klassifikation in ihrer  letzten F assung ist in Tabelle 7 angegeben. Sie ist in Europa , spezi ell auch im  deutschsprachigen Raum verbreitet und sollte aufgrund ihrer auch praktischen Relevanz zur  Beurteilung der atraumatischen Femurkopfnekrose des Erwachsenen angewendet werden.  Kommentar  Die in dieser Leitlinie propagierte ARCO Klassifikation beruht auf den Vorarbeiten von Ficat,  Arlet und der Arbeitsgruppe um Steinberg",
+                "chroma_score": 0.5019069910049438,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.022222222222222223,
+                        "recall": 0.5,
+                        "f1": 0.0425531914893617
+                    },
+                    "rouge2": {
+                        "precision": 0.007462686567164179,
+                        "recall": 0.2,
+                        "f1": 0.014388489208633093
+                    },
+                    "rougeL": {
+                        "precision": 0.022222222222222223,
+                        "recall": 0.5,
+                        "f1": 0.0425531914893617
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Wie sollte bei Verdacht auf eine subchondrale Fraktur im ARCO Stadium II, aber unklarer Diagnostik, weiter vorgegangen werden?",
+        "reference_answer": "Empfehlung: Durchführung einer CT zur Klärung der subchondralen Fraktur.",
+        "retrieved_information": [
+            {
+                "passage": "Bleibt bei Patienten im Stadium ARCO Stadium II die Frage nach einer  subchondralen Fraktur unbeantwortet, sollte eine CT erfolgen.  Level of Evidence: 2-3 Empfehlungsgrad: B \n\nQuellen: 484, 508 ,  Expertenkonsens (mittel) 81,7 Zustimmung  Geprüft 2019 \n\nHintergrundtext:",
+                "chroma_score": 0.43541383743286133,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.10526315789473684,
+                        "recall": 0.36363636363636365,
+                        "f1": 0.16326530612244897
+                    },
+                    "rouge2": {
+                        "precision": 0.02702702702702703,
+                        "recall": 0.1,
+                        "f1": 0.0425531914893617
+                    },
+                    "rougeL": {
+                        "precision": 0.07894736842105263,
+                        "recall": 0.2727272727272727,
+                        "f1": 0.12244897959183672
+                    }
+                }
+            },
+            {
+                "passage": "Bleibt bei Patienten im Stadium ARCO Stadium II die Frage nach einer  subchondralen Fraktur unbeantwortet, sollte eine CT erfolgen.  Level of Evidence: 2-3 Empfehlungsgrad: B \n\nQuellen: 484, 508 ,  Expertenkonsens (mittel) 81,7 Zustimmung  Geprüft 2019 \n\nHintergrundtext:",
+                "chroma_score": 0.43541383743286133,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.10526315789473684,
+                        "recall": 0.36363636363636365,
+                        "f1": 0.16326530612244897
+                    },
+                    "rouge2": {
+                        "precision": 0.02702702702702703,
+                        "recall": 0.1,
+                        "f1": 0.0425531914893617
+                    },
+                    "rougeL": {
+                        "precision": 0.07894736842105263,
+                        "recall": 0.2727272727272727,
+                        "f1": 0.12244897959183672
+                    }
+                }
+            },
+            {
+                "passage": "Patienten mit einer Hüftkopfnekrose im Röntgenbild im ARCO Stadium II und III  sollen eine MRT zur Beurteilung der Lokalisation, Größe der Nekrosezone und  Klärung der Frage nach Gelenkflächeneinbruch, subchondraler Fraktur und  Ausmaß des Kollapses erhalten.  Level of Evidence: 1 bis 2 Empfehlungsgrad: A Quellen: 143, 145, 484,  554, 807, 1571, 2594, 2432,  2530, 2570, 2577, 2579,  Expertenkonsens (stark) 100 Zustimmung  Geprüft 2019 \n\nHintergrundtext:",
+                "chroma_score": 0.6463516354560852,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.08695652173913043,
+                        "recall": 0.5454545454545454,
+                        "f1": 0.15000000000000002
+                    },
+                    "rouge2": {
+                        "precision": 0.029411764705882353,
+                        "recall": 0.2,
+                        "f1": 0.05128205128205128
+                    },
+                    "rougeL": {
+                        "precision": 0.08695652173913043,
+                        "recall": 0.5454545454545454,
+                        "f1": 0.15000000000000002
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Sollte eine Szintigraphie zur Diagnostik der atraumatischen Femurkopfnekrose eingesetzt werden?",
+        "reference_answer": "Empfehlung: Szintigraphie wird nicht zur Diagnostik der atraumatischen Femurkopfnekrose empfohlen.",
+        "retrieved_information": [
+            {
+                "passage": ". Die Methode wurde inzwischen von der MRT bei der Fragestellung  Femurkopfnekrose komplett verdrängt Markicz et al. (1681), Beltran et al. (1616), Mont et al.  2574.  Von den Experten wurde darauf hingewiesen, daß die Szintigraphie als sehr sensibles aber  wenig spezifisches Verfahren sicherlich kein Diagnostikum der ersten Wahl ist. Dennoch ergibt  unter speziellen Voraussetzungen die Szintigraphie wertvolle Hinweise, z. B. bei der S uche  nach multilokulären Osteonekroseherden bei der steroidassoziierten FKN.",
+                "chroma_score": 0.4847443699836731,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.041666666666666664,
+                        "recall": 0.3,
+                        "f1": 0.07317073170731707
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.027777777777777776,
+                        "recall": 0.2,
+                        "f1": 0.048780487804878044
+                    }
+                }
+            },
+            {
+                "passage": ". Die Methode wurde inzwischen von der MRT bei der Fragestellung  Femurkopfnekrose komplett verdrängt Markicz et al. (1681), Beltran et al. (1616), Mont et al.  2574.  Von den Experten wurde darauf hingewiesen, daß die Szintigraphie als sehr sensibles aber  wenig spezifisches Verfahren sicherlich kein Diagnostikum der ersten Wahl ist. Dennoch ergibt  unter speziellen Voraussetzungen die Szintigraphie wertvolle Hinweise, z. B. bei der S uche  nach multilokulären Osteonekroseherden bei der steroidassoziierten FKN.",
+                "chroma_score": 0.4847443699836731,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.041666666666666664,
+                        "recall": 0.3,
+                        "f1": 0.07317073170731707
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.027777777777777776,
+                        "recall": 0.2,
+                        "f1": 0.048780487804878044
+                    }
+                }
+            },
+            {
+                "passage": ". Eine  hochauflösende CT-Untersuchung ist mit einer vergleichsweise hohen Strahlenbelastung  assoziiert. Eine Szintigraphie soll zur Diagnostik der AFKN nicht durchgeführt werden.  Level of Evidence: 2 Empfehlungsgrad: A Quellen: 1616, 1681, 2574  Expertenkonsens (mittel) 91,66 Zustimmung  Geprüft 2019  Hintergrundtext  In Ermangelung einer Ergänzung zur insensitiven Röntgendiagnostik bei frühen Stadien der  Osteonekrose wurde in den 70er und 80er Jahren des vorigen Jahrhunderts die  Knochenszintigraphie eingesetzt. Die Szintigraphie ist geeignet eine Pathologie zwar zu  entdecken, erlaubt aber aufgrund ihrer fehlenden Spezifität in der Regel nicht die Diagnose  Osteonekrose. Detaillierte Fragestellung nach dem Ausmaß der Veränderung lassen sich nicht  verantworten. Die Methode wurde inzwischen von der MRT bei der Fragestellung  Femurkopfnekrose komplett verdrängt Markicz et al. (1681), Beltran et al. (1616), Mont et al.  2574",
+                "chroma_score": 0.5077234506607056,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.04580152671755725,
+                        "recall": 0.6,
+                        "f1": 0.08510638297872342
+                    },
+                    "rouge2": {
+                        "precision": 0.015384615384615385,
+                        "recall": 0.2222222222222222,
+                        "f1": 0.02877697841726619
+                    },
+                    "rougeL": {
+                        "precision": 0.03816793893129771,
+                        "recall": 0.5,
+                        "f1": 0.07092198581560284
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Wie differenziert man im MRT zwischen einem transitorischen Knochenmarködem und einer Osteonekrose?",
+        "reference_answer": "Empfehlung: MRT-Muster und klinischer Verlauf sind entscheidend für die Differenzierung.",
+        "retrieved_information": [
+            {
+                "passage": "MRT des transitorischen Knochenmarködems:  Im MRT findet sich beim transitorischen Knochenmarködem in T1w ein diffuses, unscharf  begrenztes Areal reduzierter Signalintensität, das subchondral und epiphysär besonders  ausgeprägt ist und sich Richtung Metaphyse ausbreiteten kann. In flüssigkeitssensitiven  Sequenzen findet sich das klassische, signalreiche Ödem. D ie Läsion nimmt homogen ()  Kontrastmittel auf. Ein begleitender Gelenkerguss ist regelmäßig zu beobachten, eine  Mitbeteiligung der umgebenden Weichteile ist keine Seltenheit. Eine Frakturlinie ist im  Gegensatz zur Stressfraktur nicht oder nur selten nachweisbar. Direkt subchondral kann ein  in allen Sequenzen signalloses Areal parallel zur Gelenkfläche zur Abbildung kommen,  welches kein oder kaum Kontrastmittel aufnimmt. Die Länge dieses Areals variiert (3-20 mm),  die Ausdehnung zum subchondralen Knoche nmark übersteigt 3-4 mm nicht",
+                "chroma_score": 0.48825424909591675,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.031746031746031744,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.057971014492753624
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.031746031746031744,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.057971014492753624
+                    }
+                }
+            },
+            {
+                "passage": "MRT des transitorischen Knochenmarködems:  Im MRT findet sich beim transitorischen Knochenmarködem in T1w ein diffuses, unscharf  begrenztes Areal reduzierter Signalintensität, das subchondral und epiphysär besonders  ausgeprägt ist und sich Richtung Metaphyse ausbreiteten kann. In flüssigkeitssensitiven  Sequenzen findet sich das klassische, signalreiche Ödem. D ie Läsion nimmt homogen ()  Kontrastmittel auf. Ein begleitender Gelenkerguss ist regelmäßig zu beobachten, eine  Mitbeteiligung der umgebenden Weichteile ist keine Seltenheit. Eine Frakturlinie ist im  Gegensatz zur Stressfraktur nicht oder nur selten nachweisbar. Direkt subchondral kann ein  in allen Sequenzen signalloses Areal parallel zur Gelenkfläche zur Abbildung kommen,  welches kein oder kaum Kontrastmittel aufnimmt. Die Länge dieses Areals variiert (3-20 mm),  die Ausdehnung zum subchondralen Knoche nmark übersteigt 3-4 mm nicht",
+                "chroma_score": 0.48855388164520264,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.031746031746031744,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.057971014492753624
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.031746031746031744,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.057971014492753624
+                    }
+                }
+            },
+            {
+                "passage": ".  Das transitorische Knochenmarködem ist eigentlich keine wirkliche Differentialdiagnose der  Osteonekrose. Ätiologie, Pathologie, Bildgebung und auch die Klinik sind deutlich  unterschiedlich. Die Assoziation zwischen beiden Erkrankungen ist eher dem Umstand  geschuldet, daß in der Anfangszeit der MRT die Auffassung vertreten wurde, daß ein  Knochenmarködem ein Frühzeichen einer Osteonekrose darstellen könnte Turner et al.  (2583), Mitchell (2572), Solomon (2583), Hofmann et al. (2598) Diese Auffassung ist  inzwischen widerlegt Iida et al. (725), Kim et al. (669) und andere, s. u..  Pathophysiologisch b asiert das transitorische Knochenmarködem auf gelenknahen  spongiösen Frakturen. Entsprechend finden sich histologisch fokale Areale dünner, teils  unterbrochener Knochenbälkchen, bedeckt von Osteoid und Osteoblasten. Zeichen der  Osteonekrose findet man bei der transienten Osteoporose oder dem transitorischen  Knochenmarködem regelhaft nicht Yamamoto et al. 2590), McCarthy (2571)",
+                "chroma_score": 0.5140508413314819,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.03007518796992481,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.05517241379310345
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.022556390977443608,
+                        "recall": 0.25,
+                        "f1": 0.041379310344827586
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Welche bildgebende Methode gilt als Goldstandard in der Diagnostik der atraumatischen Femurkopfnekrose?",
+        "reference_answer": "Empfehlung: MRT als Goldstandard.",
+        "retrieved_information": [
+            {
+                "passage": "DIAGNOSTIK  1. Welche Methoden werden zur Diagnose der atraumatischen  Femurkopfnekrose eingesetzt und wie ist der diagnostische Algorithmus",
+                "chroma_score": 0.49639594554901123,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    }
+                }
+            },
+            {
+                "passage": "DIAGNOSTIK  1. Welche Methoden werden zur Diagnose der atraumatischen  Femurkopfnekrose eingesetzt und wie ist der diagnostische Algorithmus",
+                "chroma_score": 0.49639594554901123,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    }
+                }
+            },
+            {
+                "passage": "Stevens et al. (484) schlussfolgerten aus dem Vergleich von MRT, Röntgen und CT bei 45  Patienten mit Femurkopfnekrose, daß die CT die beste bildgebende Methode zur Darstellung  einer subchondralen Fraktur ist. Diese Aussage ist umso aufschlussreicher, als die Autoren im  CT nur 3mm Schichten in axialer Ausrichtung verwenden konnten. Mit normalen modernen  Geräten sind heute Schi chten von 1mm und vor allem eine Rekonstruktion der Daten in  beliebiger Schichtrichtung (bevorzugt koronar und sagittal) der diagnostische Standard.  Hofmann et al. (508) beschreiben in einem Review über die bildgebende Diagnostik bei  Femurkopfnekrose das hochauflösende CT mit 12 mm dicken Schichten als das Verfahren,  welches im Vergleich zu anderen bildgebenden Verfahren früh und sicher eine Erkennung  einer subchondralen Fraktur zu Beginn der mechanischen Instabilität des Hüftgelenkes  erlaubt. Zur Diagnostik früher Stadien der Femurkopfnekrose ist das CT nicht geeignet",
+                "chroma_score": 0.5397228002548218,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.014084507042253521,
+                        "recall": 0.5,
+                        "f1": 0.027397260273972605
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.014084507042253521,
+                        "recall": 0.5,
+                        "f1": 0.027397260273972605
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Welche Bildgebung eignet sich am besten zur Detektion einer subchondralen Fraktur?",
+        "reference_answer": "Empfehlung: CT für die Darstellung subchondraler Frakturen.",
+        "retrieved_information": [
+            {
+                "passage": ". Bis auf einen Fall konnte mittels CT jede subchondrale Fraktur dargestellt  werden. Bei 4 Patienten stellte sie sich entweder im Röntgen oder im MRT nach 12 Monaten  dar. IM Vergleich zum CT hatte das MRT eine Sensitivität von 38 und eine Spezifität von  100, das Röntgenbild hatte eine Sensitivität von 71 und eine Spezifität von 97. Der  positive prädiktive Wert des Röntgens be trug 96, des MRT 100 , der negative prädiktive  Wert des Röntgens betrug 77, des MRT 60. Die Autoren schlussfolgerten, daß die CT die  beste bildgebende Methode zur Darstellung einer subchondralen Fraktur ist, diese aber auch  bereits im MRT angedeutet sein kann.",
+                "chroma_score": 0.5093896985054016,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.043859649122807015,
+                        "recall": 0.625,
+                        "f1": 0.08196721311475409
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.03508771929824561,
+                        "recall": 0.5,
+                        "f1": 0.06557377049180328
+                    }
+                }
+            },
+            {
+                "passage": ". Bis auf einen Fall konnte mittels CT jede subchondrale Fraktur dargestellt  werden. Bei 4 Patienten stellte sie sich entweder im Röntgen oder im MRT nach 12 Monaten  dar. IM Vergleich zum CT hatte das MRT eine Sensitivität von 38 und eine Spezifität von  100, das Röntgenbild hatte eine Sensitivität von 71 und eine Spezifität von 97. Der  positive prädiktive Wert des Röntgens be trug 96, des MRT 100 , der negative prädiktive  Wert des Röntgens betrug 77, des MRT 60. Die Autoren schlussfolgerten, daß die CT die  beste bildgebende Methode zur Darstellung einer subchondralen Fraktur ist, diese aber auch  bereits im MRT angedeutet sein kann.",
+                "chroma_score": 0.5093896985054016,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.043859649122807015,
+                        "recall": 0.625,
+                        "f1": 0.08196721311475409
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.03508771929824561,
+                        "recall": 0.5,
+                        "f1": 0.06557377049180328
+                    }
+                }
+            },
+            {
+                "passage": ". Die MRT unter Verwendung moderner Technologie  (Feldstärke mindestens 1,5 T, auf die betroffene Hüfte abgestimmte Sequenzprotokolle mit  gutem Signal/Rauschverhältnis, Möglichkeit der 3D Date naquisition mit Rekonstruktion von  Schichten 2mm in verschiedenen Ebenen) ist dazu ideal geeignet Potter und Schachar  (2577). Es gilt allerdings kritisch zu konstatieren, daß die Darstellung der knöchernen Strukturen  selbst, im Gegensatz zu Knorpel und insbesondere dem subchondralen Knochenmark,  methodenbedingt mittels MRT nicht optimal gelingt. Hier ist die CT prinzipiell überlegen. Dies  hat dann seine Bedeutung, wenn es gilt, kleine Absenkungen und Frakturen der  subchondralen Grenzlamelle zu detektiere n Whitehouse und Bohndorf (2588). Es ist  ungeklärt, ob die MRT, auch mit moderner Technologie, die CT bei der Beurteilung der  subchondralen Grenzlamelle in ihrer Genauigkeit und Treffsicherheit erreichen kann",
+                "chroma_score": 0.6123933792114258,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.031007751937984496,
+                        "recall": 0.5,
+                        "f1": 0.0583941605839416
+                    },
+                    "rouge2": {
+                        "precision": 0.0078125,
+                        "recall": 0.14285714285714285,
+                        "f1": 0.014814814814814815
+                    },
+                    "rougeL": {
+                        "precision": 0.023255813953488372,
+                        "recall": 0.375,
+                        "f1": 0.043795620437956206
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Welche Risikofaktoren sprechen für eine bilaterale Beteiligung bei Femurkopfnekrose?",
+        "reference_answer": "Empfehlung: Einseitige Femurkopfnekrose erhöht das Risiko für bilaterale Erkrankung; Risikofaktoren beachten.",
+        "retrieved_information": [
+            {
+                "passage": ". Die FKN kommt am meisten beim jungen Patienten  vor und erfordert häufig eine Totalendoprothese zur Behandlung. Die üblichsten Faktoren, die  damit bei Patienten von 35 Jahren und jünger einhergehen, sind der Einsatz von  Kortikosteroiden (61), gefolgt von idiopathischen Gründen (11) und Trauma (9). Weitere  Faktoren sind Alkoholismus (3), der jedoch bei diesen jüngeren Patienten eine geringe Rolle  spielt. Signifikante Unterschiede fanden sich in allen Risikogruppen hinsichtlich des  Geschlechts (Männer sind häufiger als Frauen bei Corticosteroiden und Alkoholismus sowie  idiopathischen Gründen betroffen) und unilaterale versus bila terale TEP (unilaterale häufiger  als bilaterale Hüft-TEP bei Trauma und idiopathischen Femurkopfnekrosen).  Yu et al. (2015) untersuchten 101 Patienten (167 Hüften) im CT hinsichtlich der Ausdehnung  der Nekrose und der Kollapswahrscheinlichkeit (70 Männer, 31 Frauen (2,3:1), Alter 20-64  Jahre im Mittel 46 Jahre, Dauer der Erkrankung im Mittel 3,8 Jahr",
+                "chroma_score": 0.5938282012939453,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.013245033112582781,
+                        "recall": 0.15384615384615385,
+                        "f1": 0.024390243902439022
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.013245033112582781,
+                        "recall": 0.15384615384615385,
+                        "f1": 0.024390243902439022
+                    }
+                }
+            },
+            {
+                "passage": ". Die FKN kommt am meisten beim jungen Patienten  vor und erfordert häufig eine Totalendoprothese zur Behandlung. Die üblichsten Faktoren, die  damit bei Patienten von 35 Jahren und jünger einhergehen, sind der Einsatz von  Kortikosteroiden (61), gefolgt von idiopathischen Gründen (11) und Trauma (9). Weitere  Faktoren sind Alkoholismus (3), der jedoch bei diesen jüngeren Patienten eine geringe Rolle  spielt. Signifikante Unterschiede fanden sich in allen Risikogruppen hinsichtlich des  Geschlechts (Männer sind häufiger als Frauen bei Corticosteroiden und Alkoholismus sowie  idiopathischen Gründen betroffen) und unilaterale versus bila terale TEP (unilaterale häufiger  als bilaterale Hüft-TEP bei Trauma und idiopathischen Femurkopfnekrosen).  Yu et al. (2015) untersuchten 101 Patienten (167 Hüften) im CT hinsichtlich der Ausdehnung  der Nekrose und der Kollapswahrscheinlichkeit (70 Männer, 31 Frauen (2,3:1), Alter 20-64  Jahre im Mittel 46 Jahre, Dauer der Erkrankung im Mittel 3,8 Jahr",
+                "chroma_score": 0.5938282012939453,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.013245033112582781,
+                        "recall": 0.15384615384615385,
+                        "f1": 0.024390243902439022
+                    },
+                    "rouge2": {
+                        "precision": 0.0,
+                        "recall": 0.0,
+                        "f1": 0.0
+                    },
+                    "rougeL": {
+                        "precision": 0.013245033112582781,
+                        "recall": 0.15384615384615385,
+                        "f1": 0.024390243902439022
+                    }
+                }
+            },
+            {
+                "passage": ". Sie fanden bei 215 dieser  Patienten (78) initial bzw. im follow up eine bilaterale Femurkopfnekrose. 100 Hüften im  Stadium vor dem Kollaps wurden in ihre Studie einbezogen. Die Röntgenbilder wurden durch  2 unabhängige Reviewer nach ARCO und Ohzono beurteilt. Die Autoren fanden im Verlauf  ein erhöhtes Kollapsrisiko bei bilateralem Befall, wobei ein hoher Aktivitätslevel, jüngeres Alter  und abnorme Lipidspiegel, die in Form hoher Triglyceridspiegel gefunden wurden, ein höheres  Risiko für einen zeitigeren Kollaps darstellten. Bei dieser Arbeit ist für die Beantwortung der  Frage von Bedeutung, daß 78 der betroffenen Patienten einen B efall der Gegenseite  aufwiesen.  Piyakunmala et al. (2576) studierten 32 Hoch-Risiko Patienten mit ipsilateraler  Femurkopfnekrose und röntgenologisch und klinisch unauffälliger kontralateraler Hüfte. Die  MRT deckte in 68,7 der Patienten eine zusätzliche ON der kontralateralen Seite auf.",
+                "chroma_score": 0.6482284069061279,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.04195804195804196,
+                        "recall": 0.46153846153846156,
+                        "f1": 0.07692307692307693
+                    },
+                    "rouge2": {
+                        "precision": 0.014084507042253521,
+                        "recall": 0.16666666666666666,
+                        "f1": 0.025974025974025976
+                    },
+                    "rougeL": {
+                        "precision": 0.03496503496503497,
+                        "recall": 0.38461538461538464,
+                        "f1": 0.06410256410256411
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "question": "Welche röntgenologischen Befunde charakterisieren das ARCO Stadium III?",
+        "reference_answer": "Empfehlung: Zeichen der subchondralen Fraktur mit beginnender Gelenkflächeninkongruenz im Röntgenbild.",
+        "retrieved_information": [
+            {
+                "passage": ". (2575).  Trotz der Einschränkungen, die Im Detail vorgelegt wurden, ist die Verwendung einer  pragmatisch angepassten ARCO Klassifikation zu empfehlen. Die Ficat und Arlet Klassikation  ist veraltet. Der Einsatz der Biopsie und anderer invasiver Methoden zur Sicherung der frühen  Stadien ist weltweit verlassen worden. Die Philadelphia Klassifikation konkurriert mit der  ARCO Klassifikation Mont et al. (145). Der wesentliche Prognosefaktor, die Unterscheidung  zwischen Stadium II und III wird jedoch von beiden Systemen als Wasserscheide in gleicher  Weise herausgestellt. Die Steinberg Stadien III und IV werden von der ARCO Klassifikation zu  einem Stadium III zusammengeführt. Unter Nutzung der heutigen Schnittbildverfahren MRT  und CT ist der-auch geringe-Einbruch der Gelenkfläche unter Beteiligung der subchondralen  Grenzlamelle das erste Kriterium um von einem Sta dium III zu sprechen. Die subchondrale  Fraktur (crescent sign) begleitet häufig, aber nicht immer, den Gelenkeinbruch",
+                "chroma_score": 0.7027797102928162,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.04285714285714286,
+                        "recall": 0.5,
+                        "f1": 0.07894736842105264
+                    },
+                    "rouge2": {
+                        "precision": 0.007194244604316547,
+                        "recall": 0.09090909090909091,
+                        "f1": 0.013333333333333334
+                    },
+                    "rougeL": {
+                        "precision": 0.02142857142857143,
+                        "recall": 0.25,
+                        "f1": 0.03947368421052632
+                    }
+                }
+            },
+            {
+                "passage": ". (2575).  Trotz der Einschränkungen, die Im Detail vorgelegt wurden, ist die Verwendung einer  pragmatisch angepassten ARCO Klassifikation zu empfehlen. Die Ficat und Arlet Klassikation  ist veraltet. Der Einsatz der Biopsie und anderer invasiver Methoden zur Sicherung der frühen  Stadien ist weltweit verlassen worden. Die Philadelphia Klassifikation konkurriert mit der  ARCO Klassifikation Mont et al. (145). Der wesentliche Prognosefaktor, die Unterscheidung  zwischen Stadium II und III wird jedoch von beiden Systemen als Wasserscheide in gleicher  Weise herausgestellt. Die Steinberg Stadien III und IV werden von der ARCO Klassifikation zu  einem Stadium III zusammengeführt. Unter Nutzung der heutigen Schnittbildverfahren MRT  und CT ist der-auch geringe-Einbruch der Gelenkfläche unter Beteiligung der subchondralen  Grenzlamelle das erste Kriterium um von einem Sta dium III zu sprechen. Die subchondrale  Fraktur (crescent sign) begleitet häufig, aber nicht immer, den Gelenkeinbruch",
+                "chroma_score": 0.7028408050537109,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.04285714285714286,
+                        "recall": 0.5,
+                        "f1": 0.07894736842105264
+                    },
+                    "rouge2": {
+                        "precision": 0.007194244604316547,
+                        "recall": 0.09090909090909091,
+                        "f1": 0.013333333333333334
+                    },
+                    "rougeL": {
+                        "precision": 0.02142857142857143,
+                        "recall": 0.25,
+                        "f1": 0.03947368421052632
+                    }
+                }
+            },
+            {
+                "passage": ".  Kommentar  Die in dieser Leitlinie propagierte ARCO Klassifikation beruht auf den Vorarbeiten von Ficat,  Arlet und der Arbeitsgruppe um Steinberg. Auch japanische Arbeiten sind in die Klassifikation  eingegangen. Die Klassifikation in ihrer letzten Fassung stammt aus dem Jahre 1993  Bohndorf et al. 2015. Die originale ARCO K lassifikation beruht im wesentlich auf dem  Röntgenbild, die MRT wird nur zur Diagnosestellung und Volumetrie eingesetzt. Das CT wird  nicht erwähnt. Sowohl die MRT-als auch die CT-Untersuchung ist hilfreich, um besser  zwischen Stadium 2 und 3 (crescent si gn, Deckplatteneinbruch) zu unterscheiden, das  Ausmaß der Nekrose festzustellen und einen pragmatischeren und klinisch relevanten Ansatz  zu ermöglichen. Das Stadium 0 ist obsolet geworden, da es nicht klinisch relevant ist. Tab. 7: Stadieneinteilung der Hüftkopfnekrose der Association Research Circulation Osseous  (ARCO) nach Gardeniers (2526)",
+                "chroma_score": 0.7112448215484619,
+                "rouge_scores": {
+                    "rouge1": {
+                        "precision": 0.02962962962962963,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.054421768707483
+                    },
+                    "rouge2": {
+                        "precision": 0.007462686567164179,
+                        "recall": 0.09090909090909091,
+                        "f1": 0.013793103448275864
+                    },
+                    "rougeL": {
+                        "precision": 0.02962962962962963,
+                        "recall": 0.3333333333333333,
+                        "f1": 0.054421768707483
+                    }
+                }
+            }
+        ]
+    }
+]
