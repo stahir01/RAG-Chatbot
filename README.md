@@ -119,7 +119,7 @@ This will typically open the frontend in your browser at `http://localhost:3000.
 The backend is created using FastAPI, and the frontend is built with React. The project is structured to separate concerns, with modules for document retrieval, preprocessing, and chatbot logic.
 
 ## Testing Using Jupyter Notebook
-A Jupyter Notebook (`Extra/rag_test.ipynb`) is included for comprehensive testing of the chatbot's core functionalities. This notebook demonstrates:
+A Jupyter Notebook (`rag_test.ipynb`) is included for comprehensive testing of the chatbot's core functionalities. This notebook demonstrates:
 
 * **Document Retrieval Evaluation:** It contains a series of queries designed to assess the effectiveness of the document retrieval component. For each question, the notebook retrieves the top three most relevant document chunks and evaluates their relevance based on precision and recall scores. The results of this evaluation are stored in `Extra/rag_test_document_retrieval.csv`.
 
