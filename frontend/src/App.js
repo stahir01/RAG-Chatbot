@@ -1,6 +1,7 @@
 // frontend/src/App.js
 import React, { useState } from 'react';
 import './App.css';
+import ChatWidget from './ChatWidget';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -44,30 +45,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Medical Chatbot</h1>
+        <h1>Your Website Title</h1> {/* Or keep "Medical Chatbot" if this is a dedicated chatbot page */}
       </header>
-      <main className="chat-container">
-        <div className="chat-history">
-          {chatHistory.map((msg, index) => (
-            <div key={index} className={`message ${msg.role}`}>
-              <strong>{msg.role === 'user' ? 'You:' : msg.role === 'assistant' ? 'Chatbot:' : 'Error:'}</strong> {msg.content}
-            </div>
-          ))}
-          {loading && <div className="message assistant"><strong>Chatbot:</strong> Thinking...</div>}
-        </div>
-        <div className="input-area">
-          <input
-            type="text"
-            value={message}
-            onChange={handleInputChange}
-            placeholder="Ask a question..."
-            onKeyPress={(event) => event.key === 'Enter' && handleSendMessage()}
-          />
-          <button onClick={handleSendMessage} disabled={loading}>
-            {loading ? 'Sending...' : 'Send'}
-          </button>
-        </div>
-      </main>
+      {/* Your other website content can go here */}
+      <ChatWidget /> {/* Add the chat widget here */}
     </div>
   );
 }
