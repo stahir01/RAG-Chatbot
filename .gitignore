@@ -111,4 +111,4 @@ yarn-debug.log*
 yarn-error.log*
 
 Backend/RagChatbot_Env/
-backend/app/vector_store/medical_dataset/**
+backend/app/vector_store/**
