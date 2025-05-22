@@ -113,3 +113,4 @@ yarn-error.log*
 Backend/RagChatbot_Env/
 backend/app/vector_store/**
 rag_test.ipynb
+rag_chatbot copy.ipynb
